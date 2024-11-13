@@ -1,0 +1,1402 @@
+{
+  "{\"path\": \"/compositional_skills/STEM/math/area\"}": {
+    "count": 78,
+    "avg_rouge1": 0.351561749532872,
+    "avg_rouge2": 0.16955707589162147,
+    "avg_rougeL": 0.2186773259004273,
+    "avg_bert_f1": 0.8431670826215011,
+    "avg_response_length": 1372.576923076923,
+    "std_rouge1": 0.09857655777560377,
+    "std_bert_f1": 0.023852122670350875
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/arithmetic_reasoning\"}": {
+    "count": 83,
+    "avg_rouge1": 0.2897814935085691,
+    "avg_rouge2": 0.09850645201644194,
+    "avg_rougeL": 0.1551811133456793,
+    "avg_bert_f1": 0.8321149823177292,
+    "avg_response_length": 1459.7469879518073,
+    "std_rouge1": 0.09429270665853734,
+    "std_bert_f1": 0.019649673387760854
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/arithmetic_w_grammar\"}": {
+    "count": 83,
+    "avg_rouge1": 0.14762382268827035,
+    "avg_rouge2": 0.053903052236945394,
+    "avg_rougeL": 0.10099535787072303,
+    "avg_bert_f1": 0.8262710844177797,
+    "avg_response_length": 1483.2289156626507,
+    "std_rouge1": 0.1023328461047704,
+    "std_bert_f1": 0.019005293251069307
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/distance_conversion\"}": {
+    "count": 144,
+    "avg_rouge1": 0.2053183497346443,
+    "avg_rouge2": 0.062429746624875465,
+    "avg_rougeL": 0.13252502993515985,
+    "avg_bert_f1": 0.8226362437837653,
+    "avg_response_length": 1340.875,
+    "std_rouge1": 0.06775618831422917,
+    "std_bert_f1": 0.021966518668029365
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/mensurational\"}": {
+    "count": 75,
+    "avg_rouge1": 0.29201619881026736,
+    "avg_rouge2": 0.1125614169867058,
+    "avg_rougeL": 0.17410564480556825,
+    "avg_bert_f1": 0.8358148701985677,
+    "avg_response_length": 1390.1866666666667,
+    "std_rouge1": 0.11152709621667896,
+    "std_bert_f1": 0.018787834905118
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/pattern_recognition\"}": {
+    "count": 82,
+    "avg_rouge1": 0.16308193528766093,
+    "avg_rouge2": 0.05881430659756536,
+    "avg_rougeL": 0.11236463135005208,
+    "avg_bert_f1": 0.8196648853581127,
+    "avg_response_length": 1616.3048780487804,
+    "std_rouge1": 0.07893647281497565,
+    "std_bert_f1": 0.02011697918531885
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/reasoning\"}": {
+    "count": 75,
+    "avg_rouge1": 0.21527154782458405,
+    "avg_rouge2": 0.07856757284142966,
+    "avg_rougeL": 0.13717548951390274,
+    "avg_bert_f1": 0.8298677706718445,
+    "avg_response_length": 1375.9066666666668,
+    "std_rouge1": 0.12311060514579757,
+    "std_bert_f1": 0.021720762965853298
+  },
+  "{\"path\": \"/compositional_skills/STEM/math/time_series\"}": {
+    "count": 34,
+    "avg_rouge1": 0.3788184470695923,
+    "avg_rouge2": 0.12287358600048665,
+    "avg_rougeL": 0.20939956003143842,
+    "avg_bert_f1": 0.8242855282390819,
+    "avg_response_length": 1460.9705882352941,
+    "std_rouge1": 0.07562616758636405,
+    "std_bert_f1": 0.011542992994630633
+  },
+  "{\"path\": \"/compositional_skills/STEM/science/geography\"}": {
+    "count": 70,
+    "avg_rouge1": 0.17221197788015347,
+    "avg_rouge2": 0.06719326348010565,
+    "avg_rougeL": 0.11291533782710861,
+    "avg_bert_f1": 0.82035841856684,
+    "avg_response_length": 1814.857142857143,
+    "std_rouge1": 0.08533876523508764,
+    "std_bert_f1": 0.02309577135083163
+  },
+  "{\"path\": \"/compositional_skills/STEM/science/units_conversion/distance_conversion\"}": {
+    "count": 73,
+    "avg_rouge1": 0.16680015499525283,
+    "avg_rouge2": 0.06121902663805461,
+    "avg_rougeL": 0.11400356935554715,
+    "avg_bert_f1": 0.822362387017028,
+    "avg_response_length": 1403.4109589041095,
+    "std_rouge1": 0.053963281798261695,
+    "std_bert_f1": 0.01757946715007634
+  },
+  "{\"path\": \"/compositional_skills/STEM/science/units_conversion/temperature_conversion\"}": {
+    "count": 75,
+    "avg_rouge1": 0.18720735262161528,
+    "avg_rouge2": 0.052096924827392206,
+    "avg_rougeL": 0.12001619831550424,
+    "avg_bert_f1": 0.8237861267725627,
+    "avg_response_length": 1250.64,
+    "std_rouge1": 0.07397832638116882,
+    "std_bert_f1": 0.016455502610006376
+  },
+  "{\"path\": \"/compositional_skills/extraction/abstractive/abstract\"}": {
+    "count": 53,
+    "avg_rouge1": 0.4065825249391632,
+    "avg_rouge2": 0.14445958494521177,
+    "avg_rougeL": 0.20832735223879195,
+    "avg_bert_f1": 0.8500004062112773,
+    "avg_response_length": 2129.622641509434,
+    "std_rouge1": 0.10534545201600987,
+    "std_bert_f1": 0.01729269310828006
+  },
+  "{\"path\": \"/compositional_skills/extraction/abstractive/key_points\"}": {
+    "count": 52,
+    "avg_rouge1": 0.3635742472201358,
+    "avg_rouge2": 0.1340956193160473,
+    "avg_rougeL": 0.20234270196687668,
+    "avg_bert_f1": 0.8387531798619491,
+    "avg_response_length": 2049.7115384615386,
+    "std_rouge1": 0.10892405965033537,
+    "std_bert_f1": 0.020422161111630283
+  },
+  "{\"path\": \"/compositional_skills/extraction/abstractive/main_takeaway\"}": {
+    "count": 59,
+    "avg_rouge1": 0.3478555093780335,
+    "avg_rouge2": 0.1200390267093974,
+    "avg_rougeL": 0.19271419824179944,
+    "avg_bert_f1": 0.8327020285493236,
+    "avg_response_length": 1951.0169491525423,
+    "std_rouge1": 0.1002521624572798,
+    "std_bert_f1": 0.02051201465460909
+  },
+  "{\"path\": \"/compositional_skills/extraction/abstractive/outline\"}": {
+    "count": 54,
+    "avg_rouge1": 0.2999398940979533,
+    "avg_rouge2": 0.08942052134175214,
+    "avg_rougeL": 0.1589730216213381,
+    "avg_bert_f1": 0.80794765441506,
+    "avg_response_length": 1717.9814814814815,
+    "std_rouge1": 0.11496605059754565,
+    "std_bert_f1": 0.02562097082327146
+  },
+  "{\"path\": \"/compositional_skills/extraction/abstractive/title\"}": {
+    "count": 55,
+    "avg_rouge1": 0.35974176569708577,
+    "avg_rouge2": 0.12264719268506506,
+    "avg_rougeL": 0.19172201903596753,
+    "avg_bert_f1": 0.8367517005313526,
+    "avg_response_length": 1912.0,
+    "std_rouge1": 0.13157937565883432,
+    "std_bert_f1": 0.020170324467247827
+  },
+  "{\"path\": \"/compositional_skills/extraction/annual_report/bullet_points\"}": {
+    "count": 158,
+    "avg_rouge1": 0.1408254618974457,
+    "avg_rouge2": 0.06099271503055657,
+    "avg_rougeL": 0.10564145935540921,
+    "avg_bert_f1": 0.8161855464494681,
+    "avg_response_length": 1463.73417721519,
+    "std_rouge1": 0.07693960220758816,
+    "std_bert_f1": 0.02269670285710882
+  },
+  "{\"path\": \"/compositional_skills/extraction/annual_report/csv\"}": {
+    "count": 162,
+    "avg_rouge1": 0.16626828041670075,
+    "avg_rouge2": 0.06802576314220161,
+    "avg_rougeL": 0.12400887824052073,
+    "avg_bert_f1": 0.8134464426541034,
+    "avg_response_length": 1310.9753086419753,
+    "std_rouge1": 0.10160853547378629,
+    "std_bert_f1": 0.022335419620910693
+  },
+  "{\"path\": \"/compositional_skills/extraction/annual_report/markdown\"}": {
+    "count": 151,
+    "avg_rouge1": 0.2068098862986338,
+    "avg_rouge2": 0.08854168572801537,
+    "avg_rougeL": 0.15051194082220792,
+    "avg_bert_f1": 0.8161046670762119,
+    "avg_response_length": 1342.8807947019868,
+    "std_rouge1": 0.12082995330404425,
+    "std_bert_f1": 0.03143802565805705
+  },
+  "{\"path\": \"/compositional_skills/extraction/annual_report/plain_text\"}": {
+    "count": 148,
+    "avg_rouge1": 0.1397410161101019,
+    "avg_rouge2": 0.05749665599183541,
+    "avg_rougeL": 0.10150774062117116,
+    "avg_bert_f1": 0.8187575465118563,
+    "avg_response_length": 1485.0472972972973,
+    "std_rouge1": 0.08967943921313436,
+    "std_bert_f1": 0.02099549893115225
+  },
+  "{\"path\": \"/compositional_skills/extraction/annual_report/reasoning\"}": {
+    "count": 142,
+    "avg_rouge1": 0.23971518496171118,
+    "avg_rouge2": 0.09029820744984246,
+    "avg_rougeL": 0.15094012282093688,
+    "avg_bert_f1": 0.8275916463052723,
+    "avg_response_length": 1675.4718309859154,
+    "std_rouge1": 0.11276322754412013,
+    "std_bert_f1": 0.023259439331774608
+  },
+  "{\"path\": \"/compositional_skills/extraction/commercial_lease_agreement/bullet_points\"}": {
+    "count": 167,
+    "avg_rouge1": 0.265583980912999,
+    "avg_rouge2": 0.12239861496138203,
+    "avg_rougeL": 0.16946049177165867,
+    "avg_bert_f1": 0.8313412105965757,
+    "avg_response_length": 1921.2335329341317,
+    "std_rouge1": 0.12037084116431843,
+    "std_bert_f1": 0.01641714203936132
+  },
+  "{\"path\": \"/compositional_skills/extraction/commercial_lease_agreement/csv\"}": {
+    "count": 166,
+    "avg_rouge1": 0.17580473640731228,
+    "avg_rouge2": 0.0800660119503912,
+    "avg_rougeL": 0.1261401505150982,
+    "avg_bert_f1": 0.8259306208915022,
+    "avg_response_length": 1694.3734939759036,
+    "std_rouge1": 0.12240942940179589,
+    "std_bert_f1": 0.02353077300586754
+  },
+  "{\"path\": \"/compositional_skills/extraction/commercial_lease_agreement/markdown\"}": {
+    "count": 160,
+    "avg_rouge1": 0.21098669540496764,
+    "avg_rouge2": 0.09905250033991018,
+    "avg_rougeL": 0.1469100372226654,
+    "avg_bert_f1": 0.830199246481061,
+    "avg_response_length": 1697.125,
+    "std_rouge1": 0.11428788755312468,
+    "std_bert_f1": 0.019104624846679383
+  },
+  "{\"path\": \"/compositional_skills/extraction/commercial_lease_agreement/plain_text\"}": {
+    "count": 324,
+    "avg_rouge1": 0.26143393247796587,
+    "avg_rouge2": 0.12104215050055984,
+    "avg_rougeL": 0.172800077511771,
+    "avg_bert_f1": 0.8354780824831974,
+    "avg_response_length": 1803.1913580246915,
+    "std_rouge1": 0.1444185732608947,
+    "std_bert_f1": 0.02195825327867337
+  },
+  "{\"path\": \"/compositional_skills/extraction/commercial_lease_agreement/reasoning\"}": {
+    "count": 166,
+    "avg_rouge1": 0.26420870007386116,
+    "avg_rouge2": 0.1189464192687151,
+    "avg_rougeL": 0.16751415831140812,
+    "avg_bert_f1": 0.8304641092398081,
+    "avg_response_length": 1826.9518072289156,
+    "std_rouge1": 0.11667961018433082,
+    "std_bert_f1": 0.021415160389482026
+  },
+  "{\"path\": \"/compositional_skills/extraction/email/bullet_points\"}": {
+    "count": 165,
+    "avg_rouge1": 0.18438317941972326,
+    "avg_rouge2": 0.08512378263369969,
+    "avg_rougeL": 0.1376601007715581,
+    "avg_bert_f1": 0.8272730151812235,
+    "avg_response_length": 1823.4969696969697,
+    "std_rouge1": 0.11117822392854632,
+    "std_bert_f1": 0.02349485993062271
+  },
+  "{\"path\": \"/compositional_skills/extraction/email/markdown\"}": {
+    "count": 164,
+    "avg_rouge1": 0.25336235195379625,
+    "avg_rouge2": 0.10834180896138244,
+    "avg_rougeL": 0.16712726314083154,
+    "avg_bert_f1": 0.830854520565126,
+    "avg_response_length": 1759.439024390244,
+    "std_rouge1": 0.12000575218610716,
+    "std_bert_f1": 0.03223028537261965
+  },
+  "{\"path\": \"/compositional_skills/extraction/email/plain_text\"}": {
+    "count": 160,
+    "avg_rouge1": 0.1856422265464507,
+    "avg_rouge2": 0.08845399891908887,
+    "avg_rougeL": 0.12936048730074395,
+    "avg_bert_f1": 0.8306715235114097,
+    "avg_response_length": 1860.96875,
+    "std_rouge1": 0.10533834355753145,
+    "std_bert_f1": 0.022320013271725055
+  },
+  "{\"path\": \"/compositional_skills/extraction/email/reasoning\"}": {
+    "count": 154,
+    "avg_rouge1": 0.2745028973848005,
+    "avg_rouge2": 0.10293663705230124,
+    "avg_rougeL": 0.16359381869386344,
+    "avg_bert_f1": 0.8290579706043392,
+    "avg_response_length": 1747.9610389610389,
+    "std_rouge1": 0.11521120334970841,
+    "std_bert_f1": 0.0245684629795506
+  },
+  "{\"path\": \"/compositional_skills/extraction/fda_filing/bullet_points\"}": {
+    "count": 162,
+    "avg_rouge1": 0.2067555116822295,
+    "avg_rouge2": 0.07243222826467667,
+    "avg_rougeL": 0.13104320362438862,
+    "avg_bert_f1": 0.8271064202726623,
+    "avg_response_length": 1705.0061728395062,
+    "std_rouge1": 0.1087427664251624,
+    "std_bert_f1": 0.022167487563203764
+  },
+  "{\"path\": \"/compositional_skills/extraction/fda_filing/csv\"}": {
+    "count": 156,
+    "avg_rouge1": 0.19046705803671043,
+    "avg_rouge2": 0.08069753153291885,
+    "avg_rougeL": 0.1430882177816638,
+    "avg_bert_f1": 0.821980166511658,
+    "avg_response_length": 1353.9679487179487,
+    "std_rouge1": 0.1240154705379095,
+    "std_bert_f1": 0.029618467613529383
+  },
+  "{\"path\": \"/compositional_skills/extraction/fda_filing/markdown\"}": {
+    "count": 138,
+    "avg_rouge1": 0.18022637950988765,
+    "avg_rouge2": 0.06524022903273863,
+    "avg_rougeL": 0.11682604150608217,
+    "avg_bert_f1": 0.8195722621420155,
+    "avg_response_length": 1681.195652173913,
+    "std_rouge1": 0.11631975824855294,
+    "std_bert_f1": 0.030242793994967758
+  },
+  "{\"path\": \"/compositional_skills/extraction/fda_filing/plain_text\"}": {
+    "count": 164,
+    "avg_rouge1": 0.16480284156201233,
+    "avg_rouge2": 0.06949297576140039,
+    "avg_rougeL": 0.11766237325875657,
+    "avg_bert_f1": 0.832390663100452,
+    "avg_response_length": 1784.7987804878048,
+    "std_rouge1": 0.1117191322033133,
+    "std_bert_f1": 0.02261151497012883
+  },
+  "{\"path\": \"/compositional_skills/extraction/fda_filing/reasoning\"}": {
+    "count": 150,
+    "avg_rouge1": 0.23592561784475477,
+    "avg_rouge2": 0.0756724885231097,
+    "avg_rougeL": 0.1429641402058625,
+    "avg_bert_f1": 0.8282105799516042,
+    "avg_response_length": 1783.7333333333333,
+    "std_rouge1": 0.0875538410601203,
+    "std_bert_f1": 0.01971673063587599
+  },
+  "{\"path\": \"/compositional_skills/extraction/inference/qualitative/sentiment\"}": {
+    "count": 23,
+    "avg_rouge1": 0.15792396526776464,
+    "avg_rouge2": 0.05321095944803977,
+    "avg_rougeL": 0.09478827082817817,
+    "avg_bert_f1": 0.8218076073605082,
+    "avg_response_length": 1899.695652173913,
+    "std_rouge1": 0.13488507570388283,
+    "std_bert_f1": 0.031887536945281084
+  },
+  "{\"path\": \"/compositional_skills/extraction/inference/quantitative/asciidoc/tables\"}": {
+    "count": 123,
+    "avg_rouge1": 0.29207601907489344,
+    "avg_rouge2": 0.10527382164803936,
+    "avg_rougeL": 0.18343070013650267,
+    "avg_bert_f1": 0.8233029585543686,
+    "avg_response_length": 1498.3821138211383,
+    "std_rouge1": 0.10458565341008563,
+    "std_bert_f1": 0.02385414417588398
+  },
+  "{\"path\": \"/compositional_skills/extraction/inference/quantitative/table_analaysis\"}": {
+    "count": 48,
+    "avg_rouge1": 0.2174955157630627,
+    "avg_rouge2": 0.07864261523372067,
+    "avg_rougeL": 0.1398130949901949,
+    "avg_bert_f1": 0.8202201637128989,
+    "avg_response_length": 1355.125,
+    "std_rouge1": 0.13090371956843466,
+    "std_bert_f1": 0.02701828057238825
+  },
+  "{\"path\": \"/compositional_skills/extraction/information/named_entities/dates_and_events\"}": {
+    "count": 46,
+    "avg_rouge1": 0.36776850309625786,
+    "avg_rouge2": 0.14284063168885597,
+    "avg_rougeL": 0.20909072283231459,
+    "avg_bert_f1": 0.8381302486295286,
+    "avg_response_length": 1871.195652173913,
+    "std_rouge1": 0.12075441398350437,
+    "std_bert_f1": 0.02258421732357827
+  },
+  "{\"path\": \"/compositional_skills/extraction/information/named_entities/person_names\"}": {
+    "count": 48,
+    "avg_rouge1": 0.16866710355885736,
+    "avg_rouge2": 0.07075545130185018,
+    "avg_rougeL": 0.11375813402772035,
+    "avg_bert_f1": 0.8196524232625961,
+    "avg_response_length": 1908.1458333333333,
+    "std_rouge1": 0.1293183197510111,
+    "std_bert_f1": 0.027274694360421785
+  },
+  "{\"path\": \"/compositional_skills/extraction/information/named_entities/places\"}": {
+    "count": 48,
+    "avg_rouge1": 0.16918448933461708,
+    "avg_rouge2": 0.05857523256197905,
+    "avg_rougeL": 0.11059720227052987,
+    "avg_bert_f1": 0.8053009534875551,
+    "avg_response_length": 1726.7916666666667,
+    "std_rouge1": 0.11378810648615759,
+    "std_bert_f1": 0.024144611936845358
+  },
+  "{\"path\": \"/compositional_skills/extraction/invoice/bullet_points\"}": {
+    "count": 159,
+    "avg_rouge1": 0.1713041022118401,
+    "avg_rouge2": 0.0567783971574968,
+    "avg_rougeL": 0.11960278682941182,
+    "avg_bert_f1": 0.8136189362537936,
+    "avg_response_length": 1387.0691823899372,
+    "std_rouge1": 0.08455958051053272,
+    "std_bert_f1": 0.019789796412581117
+  },
+  "{\"path\": \"/compositional_skills/extraction/invoice/csv\"}": {
+    "count": 326,
+    "avg_rouge1": 0.15035769292296772,
+    "avg_rouge2": 0.06238735828033517,
+    "avg_rougeL": 0.11578838478833635,
+    "avg_bert_f1": 0.8077323650655571,
+    "avg_response_length": 1314.006134969325,
+    "std_rouge1": 0.1012921575416357,
+    "std_bert_f1": 0.02515244456472056
+  },
+  "{\"path\": \"/compositional_skills/extraction/invoice/markdown\"}": {
+    "count": 160,
+    "avg_rouge1": 0.16346172846910237,
+    "avg_rouge2": 0.06634388223840743,
+    "avg_rougeL": 0.12239715516995213,
+    "avg_bert_f1": 0.8161376528441906,
+    "avg_response_length": 1313.3375,
+    "std_rouge1": 0.10202741207028833,
+    "std_bert_f1": 0.029390286213983742
+  },
+  "{\"path\": \"/compositional_skills/extraction/invoice/plain_text\"}": {
+    "count": 167,
+    "avg_rouge1": 0.15594649742817354,
+    "avg_rouge2": 0.07345232296586413,
+    "avg_rougeL": 0.11860906815318972,
+    "avg_bert_f1": 0.8221052674476258,
+    "avg_response_length": 1520.7784431137725,
+    "std_rouge1": 0.10531149544115535,
+    "std_bert_f1": 0.02591905852443946
+  },
+  "{\"path\": \"/compositional_skills/extraction/invoice/reasoning\"}": {
+    "count": 141,
+    "avg_rouge1": 0.23916476621100569,
+    "avg_rouge2": 0.08042063574242939,
+    "avg_rougeL": 0.1411243971059519,
+    "avg_bert_f1": 0.818489024402402,
+    "avg_response_length": 1433.177304964539,
+    "std_rouge1": 0.09657720541058581,
+    "std_bert_f1": 0.022599564454313284
+  },
+  "{\"path\": \"/compositional_skills/extraction/receipt/bullet_points\"}": {
+    "count": 173,
+    "avg_rouge1": 0.09217046386522992,
+    "avg_rouge2": 0.03511686207750593,
+    "avg_rougeL": 0.07581049457841665,
+    "avg_bert_f1": 0.8147145874927498,
+    "avg_response_length": 1390.4971098265896,
+    "std_rouge1": 0.07613552806713549,
+    "std_bert_f1": 0.02579394726265043
+  },
+  "{\"path\": \"/compositional_skills/extraction/receipt/csv\"}": {
+    "count": 158,
+    "avg_rouge1": 0.13159770864395684,
+    "avg_rouge2": 0.04468561884242742,
+    "avg_rougeL": 0.09525352061477527,
+    "avg_bert_f1": 0.811312624548055,
+    "avg_response_length": 1363.8291139240507,
+    "std_rouge1": 0.11108148433263006,
+    "std_bert_f1": 0.025738730408478672
+  },
+  "{\"path\": \"/compositional_skills/extraction/receipt/markdown\"}": {
+    "count": 155,
+    "avg_rouge1": 0.15182065766728053,
+    "avg_rouge2": 0.05859835027103986,
+    "avg_rougeL": 0.11383740907443453,
+    "avg_bert_f1": 0.8163094028349845,
+    "avg_response_length": 1349.3612903225805,
+    "std_rouge1": 0.1014278616775042,
+    "std_bert_f1": 0.026592879313294186
+  },
+  "{\"path\": \"/compositional_skills/extraction/receipt/plain_text\"}": {
+    "count": 171,
+    "avg_rouge1": 0.20601130246597707,
+    "avg_rouge2": 0.09507207100600577,
+    "avg_rougeL": 0.14408669410002836,
+    "avg_bert_f1": 0.8300359873046652,
+    "avg_response_length": 1702.5438596491229,
+    "std_rouge1": 0.12454143020398223,
+    "std_bert_f1": 0.02499654862297663
+  },
+  "{\"path\": \"/compositional_skills/extraction/receipt/reasoning\"}": {
+    "count": 151,
+    "avg_rouge1": 0.16996006263410368,
+    "avg_rouge2": 0.06874237421322986,
+    "avg_rougeL": 0.1184344031377386,
+    "avg_bert_f1": 0.8202479604064234,
+    "avg_response_length": 1401.1523178807947,
+    "std_rouge1": 0.08810204181424862,
+    "std_bert_f1": 0.07083597954223658
+  },
+  "{\"path\": \"/compositional_skills/extraction/services_agreement/bullet_points\"}": {
+    "count": 155,
+    "avg_rouge1": 0.31717189987467814,
+    "avg_rouge2": 0.13484653294927934,
+    "avg_rougeL": 0.19692147739628518,
+    "avg_bert_f1": 0.8381417589802895,
+    "avg_response_length": 2107.1032258064515,
+    "std_rouge1": 0.12683698343426741,
+    "std_bert_f1": 0.020115438217985813
+  },
+  "{\"path\": \"/compositional_skills/extraction/services_agreement/plain_text\"}": {
+    "count": 325,
+    "avg_rouge1": 0.2971452613363108,
+    "avg_rouge2": 0.1273300262212798,
+    "avg_rougeL": 0.18264781158640375,
+    "avg_bert_f1": 0.8398351306181687,
+    "avg_response_length": 2100.713846153846,
+    "std_rouge1": 0.14912878743038332,
+    "std_bert_f1": 0.0510492996768569
+  },
+  "{\"path\": \"/compositional_skills/extraction/services_agreement/reasoning\"}": {
+    "count": 316,
+    "avg_rouge1": 0.29574897506344,
+    "avg_rouge2": 0.12216028796163218,
+    "avg_rougeL": 0.17814142219604806,
+    "avg_bert_f1": 0.8386517219905611,
+    "avg_response_length": 2132.8481012658226,
+    "std_rouge1": 0.11017466355708419,
+    "std_bert_f1": 0.020449203685234354
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/abstract/bullet_points\"}": {
+    "count": 158,
+    "avg_rouge1": 0.2902216628104051,
+    "avg_rouge2": 0.11093882086438689,
+    "avg_rougeL": 0.16626352835801148,
+    "avg_bert_f1": 0.8398923968212514,
+    "avg_response_length": 2213.4493670886077,
+    "std_rouge1": 0.11355566954892467,
+    "std_bert_f1": 0.016245564825287176
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/abstract/csv\"}": {
+    "count": 154,
+    "avg_rouge1": 0.2261841679057751,
+    "avg_rouge2": 0.08670345155850397,
+    "avg_rougeL": 0.1334540424642194,
+    "avg_bert_f1": 0.8299400980596419,
+    "avg_response_length": 2203.2077922077924,
+    "std_rouge1": 0.13552823021274044,
+    "std_bert_f1": 0.0263071057136618
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/abstract/markdown\"}": {
+    "count": 157,
+    "avg_rouge1": 0.29268739949242967,
+    "avg_rouge2": 0.10700761523839751,
+    "avg_rougeL": 0.16622532969953052,
+    "avg_bert_f1": 0.8375100930025623,
+    "avg_response_length": 2166.3694267515925,
+    "std_rouge1": 0.12304732422365523,
+    "std_bert_f1": 0.028594721508822227
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/abstract/plain_text\"}": {
+    "count": 166,
+    "avg_rouge1": 0.3002195341666152,
+    "avg_rouge2": 0.11656847443663348,
+    "avg_rougeL": 0.17590608589487722,
+    "avg_bert_f1": 0.8472007046262902,
+    "avg_response_length": 2193.909638554217,
+    "std_rouge1": 0.09066926147441205,
+    "std_bert_f1": 0.018295572661190734
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/abstract/reasoning\"}": {
+    "count": 159,
+    "avg_rouge1": 0.3293941730699438,
+    "avg_rouge2": 0.12081723924641234,
+    "avg_rougeL": 0.18324506906524266,
+    "avg_bert_f1": 0.84233236462815,
+    "avg_response_length": 2136.3899371069183,
+    "std_rouge1": 0.09437696730450809,
+    "std_bert_f1": 0.022281301991507463
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/equations/bullet_points\"}": {
+    "count": 312,
+    "avg_rouge1": 0.2941853469331965,
+    "avg_rouge2": 0.11691340784401738,
+    "avg_rougeL": 0.17757062214018182,
+    "avg_bert_f1": 0.8377536902060876,
+    "avg_response_length": 2020.1153846153845,
+    "std_rouge1": 0.1349319219809283,
+    "std_bert_f1": 0.022396707419980306
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/equations/csv\"}": {
+    "count": 298,
+    "avg_rouge1": 0.28107156177879344,
+    "avg_rouge2": 0.11236589956688883,
+    "avg_rougeL": 0.17171629972172486,
+    "avg_bert_f1": 0.8363898602508059,
+    "avg_response_length": 2022.1677852348994,
+    "std_rouge1": 0.14730964767386207,
+    "std_bert_f1": 0.02350242245087848
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/equations/markdown\"}": {
+    "count": 303,
+    "avg_rouge1": 0.33184493563343426,
+    "avg_rouge2": 0.12742779777511898,
+    "avg_rougeL": 0.19099021722129614,
+    "avg_bert_f1": 0.8389878111703954,
+    "avg_response_length": 2052.894389438944,
+    "std_rouge1": 0.14417684609126988,
+    "std_bert_f1": 0.05335409022157112
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/equations/plain_text\"}": {
+    "count": 319,
+    "avg_rouge1": 0.26577628314188195,
+    "avg_rouge2": 0.11029136079025825,
+    "avg_rougeL": 0.16603261865332153,
+    "avg_bert_f1": 0.8415974528064548,
+    "avg_response_length": 2110.0344827586205,
+    "std_rouge1": 0.11804165724217747,
+    "std_bert_f1": 0.018816443150736144
+  },
+  "{\"path\": \"/compositional_skills/extraction/technical_paper/equations/reasoning\"}": {
+    "count": 158,
+    "avg_rouge1": 0.35353913018163896,
+    "avg_rouge2": 0.14788453112611907,
+    "avg_rougeL": 0.2059076803988677,
+    "avg_bert_f1": 0.8489464585539661,
+    "avg_response_length": 2247.73417721519,
+    "std_rouge1": 0.1059509761065757,
+    "std_bert_f1": 0.01684825340979382
+  },
+  "{\"path\": \"/compositional_skills/general/tables/editing/add_remove\"}": {
+    "count": 72,
+    "avg_rouge1": 0.208488623196975,
+    "avg_rouge2": 0.10817984899697379,
+    "avg_rougeL": 0.16030002470285842,
+    "avg_bert_f1": 0.7965901692708334,
+    "avg_response_length": 1459.7916666666667,
+    "std_rouge1": 0.14070133270844645,
+    "std_bert_f1": 0.03333114780160363
+  },
+  "{\"path\": \"/compositional_skills/general/tables/editing/combining_altering\"}": {
+    "count": 74,
+    "avg_rouge1": 0.21499710398268226,
+    "avg_rouge2": 0.11116058452918916,
+    "avg_rougeL": 0.16596133934746252,
+    "avg_bert_f1": 0.8071389206357904,
+    "avg_response_length": 1484.445945945946,
+    "std_rouge1": 0.13207139914472324,
+    "std_bert_f1": 0.03738185869592571
+  },
+  "{\"path\": \"/compositional_skills/general/tables/empty\"}": {
+    "count": 75,
+    "avg_rouge1": 0.07580348994414314,
+    "avg_rouge2": 0.032807334903002285,
+    "avg_rougeL": 0.0632055369150804,
+    "avg_bert_f1": 0.7533932383855184,
+    "avg_response_length": 1381.44,
+    "std_rouge1": 0.07168544271365823,
+    "std_bert_f1": 0.029023503438021358
+  },
+  "{\"path\": \"/compositional_skills/linguistics/classification/agent_classification\"}": {
+    "count": 31,
+    "avg_rouge1": 0.03673672104751589,
+    "avg_rouge2": 0.012747972111025534,
+    "avg_rougeL": 0.02677327630975129,
+    "avg_bert_f1": 0.7974568240104183,
+    "avg_response_length": 1912.2903225806451,
+    "std_rouge1": 0.06782014687821267,
+    "std_bert_f1": 0.025341945731235063
+  },
+  "{\"path\": \"/compositional_skills/linguistics/complete_common_expressions\"}": {
+    "count": 77,
+    "avg_rouge1": 0.11939430225748025,
+    "avg_rouge2": 0.04429844077827778,
+    "avg_rougeL": 0.08245191988610613,
+    "avg_bert_f1": 0.7945114544459752,
+    "avg_response_length": 1576.6753246753246,
+    "std_rouge1": 0.10707973895279282,
+    "std_bert_f1": 0.09597614678182059
+  },
+  "{\"path\": \"/compositional_skills/linguistics/jumbled_sentences\"}": {
+    "count": 29,
+    "avg_rouge1": 0.1992273504942905,
+    "avg_rouge2": 0.13045678837177793,
+    "avg_rougeL": 0.16027575421359497,
+    "avg_bert_f1": 0.8275987670339388,
+    "avg_response_length": 1692.551724137931,
+    "std_rouge1": 0.07101501756848536,
+    "std_bert_f1": 0.02166718875211275
+  },
+  "{\"path\": \"/compositional_skills/linguistics/organize_lists\"}": {
+    "count": 67,
+    "avg_rouge1": 0.3010113552262966,
+    "avg_rouge2": 0.09635699288703432,
+    "avg_rougeL": 0.16354186894740347,
+    "avg_bert_f1": 0.8128582959744468,
+    "avg_response_length": 1652.686567164179,
+    "std_rouge1": 0.09243371656970512,
+    "std_bert_f1": 0.023993331734848786
+  },
+  "{\"path\": \"/compositional_skills/linguistics/pattern_recognition\"}": {
+    "count": 29,
+    "avg_rouge1": 0.09801940971132685,
+    "avg_rouge2": 0.025783486810070748,
+    "avg_rougeL": 0.07024426890882163,
+    "avg_bert_f1": 0.796244463016247,
+    "avg_response_length": 1714.6896551724137,
+    "std_rouge1": 0.05871091354382669,
+    "std_bert_f1": 0.022977451827184112
+  },
+  "{\"path\": \"/compositional_skills/linguistics/reversing_string\"}": {
+    "count": 81,
+    "avg_rouge1": 0.10671111553618241,
+    "avg_rouge2": 0.0521191754954727,
+    "avg_rougeL": 0.08313984035531276,
+    "avg_bert_f1": 0.8227723277645347,
+    "avg_response_length": 1656.9753086419753,
+    "std_rouge1": 0.0902937188378181,
+    "std_bert_f1": 0.020426037821968366
+  },
+  "{\"path\": \"/compositional_skills/linguistics/rhyming_words\"}": {
+    "count": 83,
+    "avg_rouge1": 0.09360385231445036,
+    "avg_rouge2": 0.02008350860381898,
+    "avg_rougeL": 0.060978243137759555,
+    "avg_bert_f1": 0.8035539245030966,
+    "avg_response_length": 1474.6746987951808,
+    "std_rouge1": 0.06411941458668115,
+    "std_bert_f1": 0.01592973436917847
+  },
+  "{\"path\": \"/compositional_skills/linguistics/summarization/ignore_pii\"}": {
+    "count": 72,
+    "avg_rouge1": 0.18229468368982804,
+    "avg_rouge2": 0.07370243468477831,
+    "avg_rougeL": 0.1273856415594928,
+    "avg_bert_f1": 0.835079593790902,
+    "avg_response_length": 1934.5416666666667,
+    "std_rouge1": 0.07526895061945622,
+    "std_bert_f1": 0.01953324783766081
+  },
+  "{\"path\": \"/compositional_skills/linguistics/summarization/list_of_sentences\"}": {
+    "count": 60,
+    "avg_rouge1": 0.15652158725127716,
+    "avg_rouge2": 0.06635998067654099,
+    "avg_rougeL": 0.11303403620032036,
+    "avg_bert_f1": 0.8309524069229762,
+    "avg_response_length": 1841.8666666666666,
+    "std_rouge1": 0.10489585324330465,
+    "std_bert_f1": 0.013914210478332103
+  },
+  "{\"path\": \"/compositional_skills/linguistics/word_gen\"}": {
+    "count": 78,
+    "avg_rouge1": 0.16796399443240415,
+    "avg_rouge2": 0.04541698143393608,
+    "avg_rougeL": 0.10390338474967972,
+    "avg_bert_f1": 0.82258619253452,
+    "avg_response_length": 1662.0641025641025,
+    "std_rouge1": 0.08578641066842582,
+    "std_bert_f1": 0.019915591851463885
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_i_am/primary_schooler\"}": {
+    "count": 87,
+    "avg_rouge1": 0.3959266913212551,
+    "avg_rouge2": 0.122265403166783,
+    "avg_rougeL": 0.19015638074763058,
+    "avg_bert_f1": 0.8395985796533781,
+    "avg_response_length": 1876.4252873563219,
+    "std_rouge1": 0.07970099934221557,
+    "std_bert_f1": 0.01483610476339566
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_you_are/abstract\"}": {
+    "count": 125,
+    "avg_rouge1": 0.3977468181985222,
+    "avg_rouge2": 0.09916120666750308,
+    "avg_rougeL": 0.17697731877285774,
+    "avg_bert_f1": 0.8335989952087403,
+    "avg_response_length": 2175.608,
+    "std_rouge1": 0.09087346782631475,
+    "std_bert_f1": 0.018697173452362093
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_you_are/fictional/movies\"}": {
+    "count": 203,
+    "avg_rouge1": 0.4056474024582816,
+    "avg_rouge2": 0.10680546530160691,
+    "avg_rougeL": 0.18697482714471156,
+    "avg_bert_f1": 0.8323378944631867,
+    "avg_response_length": 2083.088669950739,
+    "std_rouge1": 0.09869462716470909,
+    "std_bert_f1": 0.019470841683417846
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_you_are/fictional/tv_shows\"}": {
+    "count": 104,
+    "avg_rouge1": 0.39384931030170994,
+    "avg_rouge2": 0.0985486072055177,
+    "avg_rougeL": 0.18063958873845243,
+    "avg_bert_f1": 0.8338738972177873,
+    "avg_response_length": 2098.7403846153848,
+    "std_rouge1": 0.08598984175655343,
+    "std_bert_f1": 0.016941804588913697
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_you_are/fictional/video_games\"}": {
+    "count": 42,
+    "avg_rouge1": 0.3829369140542972,
+    "avg_rouge2": 0.08681429822081638,
+    "avg_rougeL": 0.17068767511913494,
+    "avg_bert_f1": 0.826186553353355,
+    "avg_response_length": 1962.0,
+    "std_rouge1": 0.11512724481546466,
+    "std_bert_f1": 0.019063231013000392
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_you_are/non_fictional/historical_figures\"}": {
+    "count": 56,
+    "avg_rouge1": 0.37862925287864563,
+    "avg_rouge2": 0.09073765512613877,
+    "avg_rougeL": 0.18653175903497887,
+    "avg_bert_f1": 0.8268712141684124,
+    "avg_response_length": 2090.035714285714,
+    "std_rouge1": 0.09713317145673268,
+    "std_bert_f1": 0.01612800624237494
+  },
+  "{\"path\": \"/compositional_skills/roleplay/explain_like_you_are/non_fictional/popular_personalities\"}": {
+    "count": 219,
+    "avg_rouge1": 0.4439137667129615,
+    "avg_rouge2": 0.1250830311524452,
+    "avg_rougeL": 0.19553825015528353,
+    "avg_bert_f1": 0.8425354641866466,
+    "avg_response_length": 2125.5479452054797,
+    "std_rouge1": 0.09863497021507162,
+    "std_bert_f1": 0.020034557788619976
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/brainstorming/idea_generation\"}": {
+    "count": 25,
+    "avg_rouge1": 0.3333578384950262,
+    "avg_rouge2": 0.10534041575609594,
+    "avg_rougeL": 0.17664368019047527,
+    "avg_bert_f1": 0.8480766367912292,
+    "avg_response_length": 2189.68,
+    "std_rouge1": 0.0830280359546061,
+    "std_bert_f1": 0.016694846499832227
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/brainstorming/refute_claim\"}": {
+    "count": 24,
+    "avg_rouge1": 0.4937379981386952,
+    "avg_rouge2": 0.1399293553162945,
+    "avg_rougeL": 0.20802940434882333,
+    "avg_bert_f1": 0.8575577711065611,
+    "avg_response_length": 2441.0833333333335,
+    "std_rouge1": 0.07378130680395732,
+    "std_bert_f1": 0.01949041916527896
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/brainstorming/support_claim\"}": {
+    "count": 29,
+    "avg_rouge1": 0.4035149221073341,
+    "avg_rouge2": 0.11267107203133621,
+    "avg_rougeL": 0.19011842678374472,
+    "avg_bert_f1": 0.8441639768666235,
+    "avg_response_length": 2078.9655172413795,
+    "std_rouge1": 0.10841998249561358,
+    "std_bert_f1": 0.026237872492437423
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/debate\"}": {
+    "count": 13,
+    "avg_rouge1": 0.5128896107808363,
+    "avg_rouge2": 0.1837481623278587,
+    "avg_rougeL": 0.24144125546684622,
+    "avg_bert_f1": 0.8674589670621432,
+    "avg_response_length": 2456.3076923076924,
+    "std_rouge1": 0.09476433484500572,
+    "std_bert_f1": 0.010314712221791277
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/emoji\"}": {
+    "count": 282,
+    "avg_rouge1": 0.092524906834518,
+    "avg_rouge2": 0.03795051479820793,
+    "avg_rougeL": 0.0832300112002385,
+    "avg_bert_f1": 0.7782297144967614,
+    "avg_response_length": 1179.9574468085107,
+    "std_rouge1": 0.10335637150924477,
+    "std_bert_f1": 0.02194464951654464
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/grammar/basic_grammer_tests\"}": {
+    "count": 82,
+    "avg_rouge1": 0.20288565733136066,
+    "avg_rouge2": 0.08775595685053347,
+    "avg_rougeL": 0.13699028418744058,
+    "avg_bert_f1": 0.8290011940932855,
+    "avg_response_length": 1567.1097560975609,
+    "std_rouge1": 0.11204050322327702,
+    "std_bert_f1": 0.024793418141994955
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/jokes/puns/general\"}": {
+    "count": 151,
+    "avg_rouge1": 0.06968696977023917,
+    "avg_rouge2": 0.014330529101810287,
+    "avg_rougeL": 0.051114534460523074,
+    "avg_bert_f1": 0.7948319086965346,
+    "avg_response_length": 1712.7218543046358,
+    "std_rouge1": 0.04605869857505296,
+    "std_bert_f1": 0.06761658001993705
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/legal/agreement\"}": {
+    "count": 27,
+    "avg_rouge1": 0.4860905884356494,
+    "avg_rouge2": 0.14694248831767678,
+    "avg_rougeL": 0.20718006835227593,
+    "avg_bert_f1": 0.8404594659805298,
+    "avg_response_length": 2361.4444444444443,
+    "std_rouge1": 0.06697068250218927,
+    "std_bert_f1": 0.018520559444042205
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/legal/contracts\"}": {
+    "count": 29,
+    "avg_rouge1": 0.42952416983439373,
+    "avg_rouge2": 0.12383950709164705,
+    "avg_rougeL": 0.20221419693617487,
+    "avg_bert_f1": 0.8401987306002913,
+    "avg_response_length": 2029.0689655172414,
+    "std_rouge1": 0.08788679411571103,
+    "std_bert_f1": 0.020620523664541993
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/ballad\"}": {
+    "count": 18,
+    "avg_rouge1": 0.3672929509211648,
+    "avg_rouge2": 0.08320454580634887,
+    "avg_rougeL": 0.1784177214898396,
+    "avg_bert_f1": 0.8197556899653541,
+    "avg_response_length": 2141.222222222222,
+    "std_rouge1": 0.1165371600969918,
+    "std_bert_f1": 0.03294717186445934
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/epic_poetry\"}": {
+    "count": 6,
+    "avg_rouge1": 0.38527263642652027,
+    "avg_rouge2": 0.09284115753666707,
+    "avg_rougeL": 0.1848325588839209,
+    "avg_bert_f1": 0.8312276502450308,
+    "avg_response_length": 2280.8333333333335,
+    "std_rouge1": 0.0829844623782136,
+    "std_bert_f1": 0.023238417622572987
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/freeverse\"}": {
+    "count": 12,
+    "avg_rouge1": 0.3478548681592601,
+    "avg_rouge2": 0.08362186736251996,
+    "avg_rougeL": 0.16530773366443216,
+    "avg_bert_f1": 0.8278742084900538,
+    "avg_response_length": 2290.5,
+    "std_rouge1": 0.057606611203919224,
+    "std_bert_f1": 0.022939578145298616
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/haiku\"}": {
+    "count": 18,
+    "avg_rouge1": 0.07640388547203351,
+    "avg_rouge2": 0.015487047695901692,
+    "avg_rougeL": 0.053548175034233245,
+    "avg_bert_f1": 0.8066793978214264,
+    "avg_response_length": 1925.8333333333333,
+    "std_rouge1": 0.045986911852603854,
+    "std_bert_f1": 0.01428838755717854
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/limerick\"}": {
+    "count": 17,
+    "avg_rouge1": 0.1412202792187811,
+    "avg_rouge2": 0.02501501866919196,
+    "avg_rougeL": 0.09369138511817945,
+    "avg_bert_f1": 0.8140662698184743,
+    "avg_response_length": 1931.1176470588234,
+    "std_rouge1": 0.08392752502147784,
+    "std_bert_f1": 0.01634262661683145
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/narrative_poetry\"}": {
+    "count": 17,
+    "avg_rouge1": 0.3174031513067467,
+    "avg_rouge2": 0.06120429921327101,
+    "avg_rougeL": 0.16373998606259213,
+    "avg_bert_f1": 0.8033138794057509,
+    "avg_response_length": 2205.1176470588234,
+    "std_rouge1": 0.05847890807167829,
+    "std_bert_f1": 0.012031275758547795
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/ode\"}": {
+    "count": 14,
+    "avg_rouge1": 0.3454301517536284,
+    "avg_rouge2": 0.09171550947170146,
+    "avg_rougeL": 0.18721036681845066,
+    "avg_bert_f1": 0.8216076620987484,
+    "avg_response_length": 1955.4285714285713,
+    "std_rouge1": 0.09511001100983184,
+    "std_bert_f1": 0.016928982691413835
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/poetry/sonnet\"}": {
+    "count": 19,
+    "avg_rouge1": 0.2476801403016269,
+    "avg_rouge2": 0.029540279855553374,
+    "avg_rougeL": 0.12933470708208147,
+    "avg_bert_f1": 0.8064574724749515,
+    "avg_response_length": 1977.7368421052631,
+    "std_rouge1": 0.05457355622319321,
+    "std_bert_f1": 0.014037321931945377
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/prose/articles\"}": {
+    "count": 26,
+    "avg_rouge1": 0.4736122108109771,
+    "avg_rouge2": 0.15716658037697268,
+    "avg_rougeL": 0.21139789130956016,
+    "avg_bert_f1": 0.8532349421427801,
+    "avg_response_length": 2080.6153846153848,
+    "std_rouge1": 0.08569954864414331,
+    "std_bert_f1": 0.018202828427180014
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/prose/emails/formal\"}": {
+    "count": 28,
+    "avg_rouge1": 0.4446974171635668,
+    "avg_rouge2": 0.15854773865997687,
+    "avg_rougeL": 0.21843011084759698,
+    "avg_bert_f1": 0.8402699530124664,
+    "avg_response_length": 2095.1428571428573,
+    "std_rouge1": 0.13617061163972907,
+    "std_bert_f1": 0.02053979977463855
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/prose/emails/informal\"}": {
+    "count": 27,
+    "avg_rouge1": 0.406568675245594,
+    "avg_rouge2": 0.1165285278564158,
+    "avg_rougeL": 0.1801541731235284,
+    "avg_bert_f1": 0.8348046828199316,
+    "avg_response_length": 2138.4444444444443,
+    "std_rouge1": 0.11884604425500235,
+    "std_bert_f1": 0.02490005751390937
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/prose/screenplay\"}": {
+    "count": 10,
+    "avg_rouge1": 0.31985726597314096,
+    "avg_rouge2": 0.06491060781155346,
+    "avg_rougeL": 0.1431687195998562,
+    "avg_bert_f1": 0.8104595243930817,
+    "avg_response_length": 2082.5,
+    "std_rouge1": 0.06356559817964896,
+    "std_bert_f1": 0.013586596278575475
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/prose/stories\"}": {
+    "count": 24,
+    "avg_rouge1": 0.41572164005898515,
+    "avg_rouge2": 0.10900636549746225,
+    "avg_rougeL": 0.192401914300798,
+    "avg_bert_f1": 0.8467500557502111,
+    "avg_response_length": 2091.875,
+    "std_rouge1": 0.10425165912355068,
+    "std_bert_f1": 0.018213067644121592
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/riddles\"}": {
+    "count": 76,
+    "avg_rouge1": 0.22872038021004576,
+    "avg_rouge2": 0.07317560006166629,
+    "avg_rougeL": 0.1347321896032908,
+    "avg_bert_f1": 0.8169443285778949,
+    "avg_response_length": 1588.4342105263158,
+    "std_rouge1": 0.11347275427918337,
+    "std_bert_f1": 0.09688030032524593
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/social_media/facebook\"}": {
+    "count": 23,
+    "avg_rouge1": 0.30030604249024856,
+    "avg_rouge2": 0.10855389094034054,
+    "avg_rougeL": 0.15967182808505404,
+    "avg_bert_f1": 0.8404912041581195,
+    "avg_response_length": 1986.608695652174,
+    "std_rouge1": 0.04594929643963847,
+    "std_bert_f1": 0.012854587273375328
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/social_media/instagram\"}": {
+    "count": 24,
+    "avg_rouge1": 0.3357844202495093,
+    "avg_rouge2": 0.09563748983808117,
+    "avg_rougeL": 0.16606271151279958,
+    "avg_bert_f1": 0.837697704633077,
+    "avg_response_length": 1975.0416666666667,
+    "std_rouge1": 0.1097136685568085,
+    "std_bert_f1": 0.025207892046679146
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/social_media/linkedin\"}": {
+    "count": 25,
+    "avg_rouge1": 0.3881933367390145,
+    "avg_rouge2": 0.12508613479103395,
+    "avg_rougeL": 0.18979540519780838,
+    "avg_bert_f1": 0.8366177272796631,
+    "avg_response_length": 1999.92,
+    "std_rouge1": 0.12051406811582002,
+    "std_bert_f1": 0.03168914875874956
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/social_media/twitter\"}": {
+    "count": 8,
+    "avg_rouge1": 0.17305036107237684,
+    "avg_rouge2": 0.036506266765998725,
+    "avg_rougeL": 0.10593507881927311,
+    "avg_bert_f1": 0.8101994395256042,
+    "avg_response_length": 2367.0,
+    "std_rouge1": 0.061393709531432465,
+    "std_bert_f1": 0.008266974134712354
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/technical/guide\"}": {
+    "count": 5,
+    "avg_rouge1": 0.4672150214416789,
+    "avg_rouge2": 0.14396429052728324,
+    "avg_rougeL": 0.19951561460363937,
+    "avg_bert_f1": 0.8405693173408508,
+    "avg_response_length": 2307.2,
+    "std_rouge1": 0.05796234906455666,
+    "std_bert_f1": 0.01165848756468542
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/technical/product_description\"}": {
+    "count": 27,
+    "avg_rouge1": 0.36980770723437584,
+    "avg_rouge2": 0.09597552010477005,
+    "avg_rougeL": 0.1662058854582725,
+    "avg_bert_f1": 0.8261986750143545,
+    "avg_response_length": 1921.851851851852,
+    "std_rouge1": 0.10839130852507649,
+    "std_bert_f1": 0.022500680699629055
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/technical/proposal\"}": {
+    "count": 8,
+    "avg_rouge1": 0.47830043166678227,
+    "avg_rouge2": 0.15729963410238396,
+    "avg_rougeL": 0.21909731127936566,
+    "avg_bert_f1": 0.8346292600035667,
+    "avg_response_length": 2353.875,
+    "std_rouge1": 0.06409660206350647,
+    "std_bert_f1": 0.03836384140680041
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/technical/report\"}": {
+    "count": 27,
+    "avg_rouge1": 0.43042900978035686,
+    "avg_rouge2": 0.13116644175856487,
+    "avg_rougeL": 0.19833610112521627,
+    "avg_bert_f1": 0.8407421708106995,
+    "avg_response_length": 2400.814814814815,
+    "std_rouge1": 0.08078554799683134,
+    "std_bert_f1": 0.015012644796586816
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/technical/specification\"}": {
+    "count": 6,
+    "avg_rouge1": 0.46004808629928035,
+    "avg_rouge2": 0.12469727294975064,
+    "avg_rougeL": 0.20988229970256214,
+    "avg_bert_f1": 0.8481021424134573,
+    "avg_response_length": 2363.1666666666665,
+    "std_rouge1": 0.07718849290143374,
+    "std_bert_f1": 0.023112009770645245
+  },
+  "{\"path\": \"/compositional_skills/writing/freeform/technical/user_manual\"}": {
+    "count": 13,
+    "avg_rouge1": 0.4704456211598178,
+    "avg_rouge2": 0.14772812193030618,
+    "avg_rougeL": 0.21855334622414047,
+    "avg_bert_f1": 0.8429496563397921,
+    "avg_response_length": 2241.3846153846152,
+    "std_rouge1": 0.11307673817124257,
+    "std_bert_f1": 0.016033607719162346
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/editing/grammar\"}": {
+    "count": 53,
+    "avg_rouge1": 0.3640457927077617,
+    "avg_rouge2": 0.12647345870790153,
+    "avg_rougeL": 0.19352998672244398,
+    "avg_bert_f1": 0.8328963799296685,
+    "avg_response_length": 2021.5849056603774,
+    "std_rouge1": 0.10105107538119336,
+    "std_bert_f1": 0.017579672110688328
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/editing/punctuation\"}": {
+    "count": 59,
+    "avg_rouge1": 0.357903217492493,
+    "avg_rouge2": 0.13208297061547272,
+    "avg_rougeL": 0.2046758056918074,
+    "avg_bert_f1": 0.8450239300727844,
+    "avg_response_length": 1953.1525423728813,
+    "std_rouge1": 0.1253262762084199,
+    "std_bert_f1": 0.019669195107292856
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/editing/spelling\"}": {
+    "count": 48,
+    "avg_rouge1": 0.18051936266255764,
+    "avg_rouge2": 0.05893385050350094,
+    "avg_rougeL": 0.11959144301041634,
+    "avg_bert_f1": 0.8122797608375549,
+    "avg_response_length": 1455.4791666666667,
+    "std_rouge1": 0.12575894022855266,
+    "std_bert_f1": 0.03134668276795056
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/meeting_insights/action_items\"}": {
+    "count": 51,
+    "avg_rouge1": 0.2794838153396725,
+    "avg_rouge2": 0.11358514011142522,
+    "avg_rougeL": 0.17517579803402442,
+    "avg_bert_f1": 0.846412273014293,
+    "avg_response_length": 2013.313725490196,
+    "std_rouge1": 0.1393247421036078,
+    "std_bert_f1": 0.022129280375250245
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/meeting_insights/corporate_email\"}": {
+    "count": 45,
+    "avg_rouge1": 0.43364899727892947,
+    "avg_rouge2": 0.1181147464754551,
+    "avg_rougeL": 0.18262839578433446,
+    "avg_bert_f1": 0.842725662390391,
+    "avg_response_length": 2230.711111111111,
+    "std_rouge1": 0.1047451504689416,
+    "std_bert_f1": 0.013969033005105293
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/meeting_insights/executive_summaries\"}": {
+    "count": 51,
+    "avg_rouge1": 0.27565557470900187,
+    "avg_rouge2": 0.11144839293960651,
+    "avg_rougeL": 0.16841477312309816,
+    "avg_bert_f1": 0.8449168216948416,
+    "avg_response_length": 2069.3333333333335,
+    "std_rouge1": 0.0968836624600835,
+    "std_bert_f1": 0.019151840494405416
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/meeting_insights/minutes_of_meeting\"}": {
+    "count": 51,
+    "avg_rouge1": 0.40740152466448426,
+    "avg_rouge2": 0.12062857077846466,
+    "avg_rougeL": 0.19259973384402712,
+    "avg_bert_f1": 0.8477752758007423,
+    "avg_response_length": 2153.9803921568628,
+    "std_rouge1": 0.102053321227987,
+    "std_bert_f1": 0.019442865612467546
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/summarization/wiki_insights/concise\"}": {
+    "count": 47,
+    "avg_rouge1": 0.08889188360694633,
+    "avg_rouge2": 0.030804351888913027,
+    "avg_rougeL": 0.06757857457560278,
+    "avg_bert_f1": 0.8045745339799435,
+    "avg_response_length": 1572.4468085106382,
+    "std_rouge1": 0.08009654292173891,
+    "std_bert_f1": 0.02154788206368052
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/summarization/wiki_insights/detailed\"}": {
+    "count": 49,
+    "avg_rouge1": 0.38905353643033047,
+    "avg_rouge2": 0.1447806387798467,
+    "avg_rougeL": 0.21366789641669556,
+    "avg_bert_f1": 0.8435876600596369,
+    "avg_response_length": 1962.6734693877552,
+    "std_rouge1": 0.09111794147934581,
+    "std_bert_f1": 0.017839697485481518
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/summarization/wiki_insights/five_point\"}": {
+    "count": 55,
+    "avg_rouge1": 0.3123654878918343,
+    "avg_rouge2": 0.12027674162966438,
+    "avg_rougeL": 0.18183143047636502,
+    "avg_bert_f1": 0.8431504943154075,
+    "avg_response_length": 2038.3636363636363,
+    "std_rouge1": 0.1444189953528053,
+    "std_bert_f1": 0.022348445866482297
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/summarization/wiki_insights/high_level_outline\"}": {
+    "count": 44,
+    "avg_rouge1": 0.2911547981915833,
+    "avg_rouge2": 0.11268088839860756,
+    "avg_rougeL": 0.18414825215226396,
+    "avg_bert_f1": 0.8216759101911024,
+    "avg_response_length": 1954.590909090909,
+    "std_rouge1": 0.11345810635973405,
+    "std_bert_f1": 0.018767221971886242
+  },
+  "{\"path\": \"/compositional_skills/writing/grounded/summarization/wiki_insights/one_line\"}": {
+    "count": 55,
+    "avg_rouge1": 0.22175820647692635,
+    "avg_rouge2": 0.08307129626161797,
+    "avg_rougeL": 0.14583283021152837,
+    "avg_bert_f1": 0.826411532271992,
+    "avg_response_length": 1759.6727272727273,
+    "std_rouge1": 0.11626256974353553,
+    "std_bert_f1": 0.027783619907998346
+  },
+  "{\"path\": \"/foundational_skills/reasoning/common_sense_reasoning\"}": {
+    "count": 81,
+    "avg_rouge1": 0.2910038553565766,
+    "avg_rouge2": 0.11744793748213107,
+    "avg_rougeL": 0.17564591787870132,
+    "avg_bert_f1": 0.8431823489106731,
+    "avg_response_length": 1488.530864197531,
+    "std_rouge1": 0.10878575650682487,
+    "std_bert_f1": 0.017343755630052065
+  },
+  "{\"path\": \"/foundational_skills/reasoning/linguistics_reasoning/logical_sequence_of_words\"}": {
+    "count": 55,
+    "avg_rouge1": 0.08819567810487124,
+    "avg_rouge2": 0.01647582736831722,
+    "avg_rougeL": 0.05887383981058338,
+    "avg_bert_f1": 0.8150143590840426,
+    "avg_response_length": 1568.7454545454545,
+    "std_rouge1": 0.05326257710829008,
+    "std_bert_f1": 0.015562029700345101
+  },
+  "{\"path\": \"/foundational_skills/reasoning/linguistics_reasoning/object_identification\"}": {
+    "count": 51,
+    "avg_rouge1": 0.13512087825275315,
+    "avg_rouge2": 0.04424624169510269,
+    "avg_rougeL": 0.09580849434538039,
+    "avg_bert_f1": 0.822553390381383,
+    "avg_response_length": 1598.9803921568628,
+    "std_rouge1": 0.09653705179779111,
+    "std_bert_f1": 0.017349681640401536
+  },
+  "{\"path\": \"/foundational_skills/reasoning/linguistics_reasoning/odd_one_out\"}": {
+    "count": 36,
+    "avg_rouge1": 0.12265180771681505,
+    "avg_rouge2": 0.044532242236454106,
+    "avg_rougeL": 0.09187150105901692,
+    "avg_bert_f1": 0.81884765625,
+    "avg_response_length": 1485.7777777777778,
+    "std_rouge1": 0.08939627414629323,
+    "std_bert_f1": 0.019673825161524192
+  },
+  "{\"path\": \"/foundational_skills/reasoning/logical_reasoning/causal\"}": {
+    "count": 75,
+    "avg_rouge1": 0.20944586230440562,
+    "avg_rouge2": 0.07940439553007021,
+    "avg_rougeL": 0.14202985070150878,
+    "avg_bert_f1": 0.8366801945368448,
+    "avg_response_length": 1534.96,
+    "std_rouge1": 0.07796659899346213,
+    "std_bert_f1": 0.018833696955315296
+  },
+  "{\"path\": \"/foundational_skills/reasoning/logical_reasoning/general\"}": {
+    "count": 322,
+    "avg_rouge1": 0.21439631074054905,
+    "avg_rouge2": 0.07509612056844059,
+    "avg_rougeL": 0.1323811966014762,
+    "avg_bert_f1": 0.8275507745905692,
+    "avg_response_length": 1478.5931677018634,
+    "std_rouge1": 0.11655929268054754,
+    "std_bert_f1": 0.023804526450406177
+  },
+  "{\"path\": \"/foundational_skills/reasoning/logical_reasoning/tabular\"}": {
+    "count": 68,
+    "avg_rouge1": 0.2441833353104362,
+    "avg_rouge2": 0.09101078307139294,
+    "avg_rougeL": 0.15152667813849924,
+    "avg_bert_f1": 0.8164991789004382,
+    "avg_response_length": 1502.6911764705883,
+    "std_rouge1": 0.11620359454965613,
+    "std_bert_f1": 0.02122201875697183
+  },
+  "{\"path\": \"/foundational_skills/reasoning/mathematical_reasoning\"}": {
+    "count": 82,
+    "avg_rouge1": 0.1992777448944518,
+    "avg_rouge2": 0.07115600224373088,
+    "avg_rougeL": 0.13235472620354974,
+    "avg_bert_f1": 0.8263014896613795,
+    "avg_response_length": 1439.2073170731708,
+    "std_rouge1": 0.08281533984010271,
+    "std_bert_f1": 0.02234521273495938
+  },
+  "{\"path\": \"/foundational_skills/reasoning/temporal_reasoning\"}": {
+    "count": 79,
+    "avg_rouge1": 0.29474149871246413,
+    "avg_rouge2": 0.10529551260448833,
+    "avg_rougeL": 0.16689614759480872,
+    "avg_bert_f1": 0.8318923515609548,
+    "avg_response_length": 1651.6962025316457,
+    "std_rouge1": 0.10388963686657471,
+    "std_bert_f1": 0.01822779679383611
+  },
+  "{\"path\": \"/foundational_skills/reasoning/theory_of_mind\"}": {
+    "count": 172,
+    "avg_rouge1": 0.2306406870674661,
+    "avg_rouge2": 0.09783431421373799,
+    "avg_rougeL": 0.14459140232720924,
+    "avg_bert_f1": 0.8385161733211473,
+    "avg_response_length": 1844.5348837209303,
+    "std_rouge1": 0.07929947667011268,
+    "std_bert_f1": 0.020862240835648423
+  },
+  "{\"path\": \"/foundational_skills/reasoning/unconventional_reasoning/lower_score_wins\"}": {
+    "count": 51,
+    "avg_rouge1": 0.21998393072024328,
+    "avg_rouge2": 0.08046372102800103,
+    "avg_rougeL": 0.1355418846425358,
+    "avg_bert_f1": 0.8347272720991397,
+    "avg_response_length": 1698.5882352941176,
+    "std_rouge1": 0.09397563991024036,
+    "std_bert_f1": 0.01965517475200107
+  }
+}
