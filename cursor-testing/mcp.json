@@ -1,0 +1,23 @@
+{
+    "mcpServers": {
+      "sequential-thinking": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-sequential-thinking"
+        ]
+      },
+      "git": {
+          "command": "uvx",
+          "args": ["mcp-server-git"]
+        },
+        "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/jernguye/projects/SWE-bench/mcp_test/cursor_workspace"
+        ]
+      }
+    }
+  }
